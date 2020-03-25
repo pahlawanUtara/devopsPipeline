@@ -34,5 +34,4 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
-  
-ignoreLASTEXITCODE: true
+  failOnStderr: false
